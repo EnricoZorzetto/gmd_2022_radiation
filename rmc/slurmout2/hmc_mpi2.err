@@ -1,0 +1,823 @@
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+ORTE does not know how to route a message to the specified daemon
+located on the indicated node:
+
+  my node:   nid00226
+  target node:  nid00241
+
+This is usually an internal programming error that should be
+reported to the developers. In the meantime, a workaround may
+be to set the MCA param routed=direct on the command line or
+in your environment. We apologize for the problem.
+--------------------------------------------------------------------------
+[nid00250:38398] *** Process received signal ***
+[nid00250:38398] Signal: Bus error (7)
+[nid00250:38398] Signal code: Non-existant physical address (2)
+[nid00250:38398] Failing at address: 0x7fffbfed5b58
+[nid00255:34954] *** Process received signal ***
+[nid00255:34954] Signal: Bus error (7)
+[nid00255:34954] Signal code: Non-existant physical address (2)
+[nid00255:34954] Failing at address: 0x7fffbfed5b58
+[nid00257:35570] *** Process received signal ***
+[nid00257:35570] Signal: Bus error (7)
+[nid00257:35570] Signal code: Non-existant physical address (2)
+[nid00257:35570] Failing at address: 0x7fffbfe8e340
+[nid00250:38403] *** Process received signal ***
+[nid00250:38403] Signal: Bus error (7)
+[nid00250:38403] Signal code: Non-existant physical address (2)
+[nid00250:38403] Failing at address: 0x7fffbfed5b58
+[nid00255:34960] *** Process received signal ***
+[nid00255:34960] Signal: Bus error (7)
+[nid00255:34960] Signal code: Non-existant physical address (2)
+[nid00255:34960] Failing at address: 0x7fffbfed5b58
+[nid00257:35579] *** Process received signal ***
+[nid00257:35579] Signal: Bus error (7)
+[nid00257:35579] Signal code: Non-existant physical address (2)
+[nid00257:35579] Failing at address: 0x7fffbfe8e340
+[nid00250:38402] *** Process received signal ***
+[nid00250:38402] Signal: Bus error (7)
+[nid00250:38402] Signal code: Non-existant physical address (2)
+[nid00250:38402] Failing at address: 0x7fffbfed5b58
+[nid00255:34973] *** Process received signal ***
+[nid00255:34973] Signal: Bus error (7)
+[nid00255:34973] Signal code: Non-existant physical address (2)
+[nid00255:34973] Failing at address: 0x7fffbfed5b58
+[nid00257:35582] *** Process received signal ***
+[nid00257:35582] Signal: Bus error (7)
+[nid00257:35582] Signal code: Non-existant physical address (2)
+[nid00257:35582] Failing at address: 0x7fffbfe8e340
+[nid00262:22872] *** Process received signal ***
+[nid00262:22872] Signal: Bus error (7)
+[nid00262:22872] Signal code: Non-existant physical address (2)
+[nid00262:22872] Failing at address: 0x7fffbfed5b58
+[nid00250:38405] *** Process received signal ***
+[nid00250:38405] Signal: Bus error (7)
+[nid00250:38405] Signal code: Non-existant physical address (2)
+[nid00250:38405] Failing at address: 0x7fffbfed5b58
+[nid00255:34972] *** Process received signal ***
+[nid00255:34972] Signal: Bus error (7)
+[nid00255:34972] Signal code: Non-existant physical address (2)
+[nid00255:34972] Failing at address: 0x7fffbfed5b58
+[nid00257:35585] *** Process received signal ***
+[nid00257:35585] Signal: Bus error (7)
+[nid00257:35585] Signal code: Non-existant physical address (2)
+[nid00257:35585] Failing at address: 0x7fffbfe8e340
+[nid00262:22875] *** Process received signal ***
+[nid00262:22875] Signal: Bus error (7)
+[nid00262:22875] Signal code: Non-existant physical address (2)
+[nid00262:22875] Failing at address: 0x7fffbfed5b58
+[nid00250:38408] *** Process received signal ***
+[nid00250:38408] Signal: Bus error (7)
+[nid00250:38408] Signal code: Non-existant physical address (2)
+[nid00250:38408] Failing at address: 0x7fffbfed5b58
+[nid00255:34976] *** Process received signal ***
+[nid00255:34976] Signal: Bus error (7)
+[nid00255:34976] Signal code: Non-existant physical address (2)
+[nid00255:34976] Failing at address: 0x7fffbfed5b58
+[nid00257:35588] *** Process received signal ***
+[nid00257:35588] Signal: Bus error (7)
+[nid00257:35588] Signal code: Non-existant physical address (2)
+[nid00257:35588] Failing at address: 0x7fffbfe8e340
+[nid00262:22873] *** Process received signal ***
+[nid00262:22873] Signal: Bus error (7)
+[nid00262:22873] Signal code: Non-existant physical address (2)
+[nid00262:22873] Failing at address: 0x7fffbfed5b58
+[nid00250:38413] *** Process received signal ***
+[nid00250:38413] Signal: Bus error (7)
+[nid00250:38413] Signal code: Non-existant physical address (2)
+[nid00250:38413] Failing at address: 0x7fffbfed5b58
+[nid00255:34978] *** Process received signal ***
+[nid00255:34978] Signal: Bus error (7)
+[nid00255:34978] Signal code: Non-existant physical address (2)
+[nid00255:34978] Failing at address: 0x7fffbfed5b58
+[nid00257:35586] *** Process received signal ***
+[nid00257:35586] Signal: Bus error (7)
+[nid00257:35586] Signal code: Non-existant physical address (2)
+[nid00257:35586] Failing at address: 0x7fffbfe8e340
+[nid00262:22874] *** Process received signal ***
+[nid00262:22874] Signal: Bus error (7)
+[nid00262:22874] Signal code: Non-existant physical address (2)
+[nid00262:22874] Failing at address: 0x7fffbfed5b58
+[nid00250:38415] *** Process received signal ***
+[nid00250:38415] Signal: Bus error (7)
+[nid00250:38415] Signal code: Non-existant physical address (2)
+[nid00250:38415] Failing at address: 0x7fffbfed5b58
+[nid00255:34948] *** Process received signal ***
+[nid00255:34948] Signal: Bus error (7)
+[nid00255:34948] Signal code: Non-existant physical address (2)
+[nid00255:34948] Failing at address: 0x7fffbfed5b58
+[nid00257:35590] *** Process received signal ***
+[nid00257:35590] Signal: Bus error (7)
+[nid00257:35590] Signal code: Non-existant physical address (2)
+[nid00257:35590] Failing at address: 0x7fffbfe8e340
+[nid00262:22878] *** Process received signal ***
+[nid00262:22878] Signal: Bus error (7)
+[nid00262:22878] Signal code: Non-existant physical address (2)
+[nid00262:22878] Failing at address: 0x7fffbfed5b58
+[nid00250:38416] *** Process received signal ***
+[nid00250:38416] Signal: Bus error (7)
+[nid00250:38416] Signal code: Non-existant physical address (2)
+[nid00250:38416] Failing at address: 0x7fffbfed5b58
+[nid00255:34949] *** Process received signal ***
+[nid00255:34949] Signal: Bus error (7)
+[nid00255:34949] Signal code: Non-existant physical address (2)
+[nid00255:34949] Failing at address: 0x7fffbfed5b58
+[nid00257:35594] *** Process received signal ***
+[nid00257:35594] Signal: Bus error (7)
+[nid00257:35594] Signal code: Non-existant physical address (2)
+[nid00257:35594] Failing at address: 0x7fffbfe8e340
+[nid00262:22882] *** Process received signal ***
+[nid00262:22882] Signal: Bus error (7)
+[nid00262:22882] Signal code: Non-existant physical address (2)
+[nid00262:22882] Failing at address: 0x7fffbfed5b58
+[nid00250:38419] *** Process received signal ***
+[nid00250:38419] Signal: Bus error (7)
+[nid00250:38419] Signal code: Non-existant physical address (2)
+[nid00250:38419] Failing at address: 0x7fffbfed5b58
+[nid00255:34950] *** Process received signal ***
+[nid00255:34950] Signal: Bus error (7)
+[nid00255:34950] Signal code: Non-existant physical address (2)
+[nid00255:34950] Failing at address: 0x7fffbfed5b58
+[nid00257:35596] *** Process received signal ***
+[nid00257:35596] Signal: Bus error (7)
+[nid00257:35596] Signal code: Non-existant physical address (2)
+[nid00257:35596] Failing at address: 0x7fffbfe8e340
+[nid00262:22879] *** Process received signal ***
+[nid00262:22879] Signal: Bus error (7)
+[nid00262:22879] Signal code: Non-existant physical address (2)
+[nid00262:22879] Failing at address: 0x7fffbfed5b58
+[nid00250:38420] *** Process received signal ***
+[nid00250:38420] Signal: Bus error (7)
+[nid00250:38420] Signal code: Non-existant physical address (2)
+[nid00250:38420] Failing at address: 0x7fffbfed5b58
+[nid00255:34951] *** Process received signal ***
+[nid00255:34951] Signal: Bus error (7)
+[nid00255:34951] Signal code: Non-existant physical address (2)
+[nid00255:34951] Failing at address: 0x7fffbfed5b58
+[nid00257:35598] *** Process received signal ***
+[nid00257:35598] Signal: Bus error (7)
+[nid00257:35598] Signal code: Non-existant physical address (2)
+[nid00257:35598] Failing at address: 0x7fffbfe8e340
+[nid00262:22884] *** Process received signal ***
+[nid00262:22884] Signal: Bus error (7)
+[nid00262:22884] Signal code: Non-existant physical address (2)
+[nid00262:22884] Failing at address: 0x7fffbfed5b58
+[nid00250:38390] *** Process received signal ***
+[nid00250:38390] Signal: Bus error (7)
+[nid00250:38390] Signal code: Non-existant physical address (2)
+[nid00250:38390] Failing at address: 0x7fffbfed5b58
+[nid00255:34953] *** Process received signal ***
+[nid00255:34953] Signal: Bus error (7)
+[nid00255:34953] Signal code: Non-existant physical address (2)
+[nid00255:34953] Failing at address: 0x7fffbfed5b58
+[nid00257:35570] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35570] [ 1] [nid00262:22881] *** Process received signal ***
+[nid00262:22881] Signal: Bus error (7)
+[nid00262:22881] Signal code: Non-existant physical address (2)
+[nid00262:22881] Failing at address: 0x7fffbfed5b58
+[nid00250:38391] *** Process received signal ***
+[nid00250:38391] Signal: Bus error (7)
+[nid00250:38391] Signal code: Non-existant physical address (2)
+[nid00250:38391] Failing at address: 0x7fffbfed5b58
+[nid00255:34952] *** Process received signal ***
+[nid00255:34952] Signal: Bus error (7)
+[nid00255:34952] Signal code: Non-existant physical address (2)
+[nid00255:34952] Failing at address: 0x7fffbfed5b58
+[nid00257:35579] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35579] [ 1] [nid00262:22886] *** Process received signal ***
+[nid00262:22886] Signal: Bus error (7)
+[nid00262:22886] Signal code: Non-existant physical address (2)
+[nid00262:22886] Failing at address: 0x7fffbfed5b58
+[nid00250:38392] *** Process received signal ***
+[nid00250:38392] Signal: Bus error (7)
+[nid00250:38392] Signal code: Non-existant physical address (2)
+[nid00250:38392] Failing at address: 0x7fffbfed5b58
+[nid00255:34979] *** Process received signal ***
+[nid00255:34979] Signal: Bus error (7)
+[nid00255:34979] Signal code: Non-existant physical address (2)
+[nid00255:34979] Failing at address: 0x7fffbfed5b58
+[nid00257:35582] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35582] [ 1] [nid00262:22883] *** Process received signal ***
+[nid00262:22883] Signal: Bus error (7)
+[nid00262:22883] Signal code: Non-existant physical address (2)
+[nid00262:22883] Failing at address: 0x7fffbfed5b58
+[nid00250:38393] *** Process received signal ***
+[nid00250:38393] Signal: Bus error (7)
+[nid00250:38393] Signal code: Non-existant physical address (2)
+[nid00250:38393] Failing at address: 0x7fffbfed5b58
+[nid00255:34955] *** Process received signal ***
+[nid00255:34955] Signal: Bus error (7)
+[nid00255:34955] Signal code: Non-existant physical address (2)
+[nid00255:34955] Failing at address: 0x7fffbfed5b58
+[nid00257:35585] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35585] [ 1] [nid00262:22888] *** Process received signal ***
+[nid00262:22888] Signal: Bus error (7)
+[nid00262:22888] Signal code: Non-existant physical address (2)
+[nid00262:22888] Failing at address: 0x7fffbfed5b58
+[nid00250:38395] *** Process received signal ***
+[nid00250:38395] Signal: Bus error (7)
+[nid00250:38395] Signal code: Non-existant physical address (2)
+[nid00250:38395] Failing at address: 0x7fffbfed5b58
+[nid00255:34957] *** Process received signal ***
+[nid00255:34957] Signal: Bus error (7)
+[nid00255:34957] Signal code: Non-existant physical address (2)
+[nid00255:34957] Failing at address: 0x7fffbfed5b58
+[nid00257:35588] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35588] [ 1] [nid00262:22885] *** Process received signal ***
+[nid00262:22885] Signal: Bus error (7)
+[nid00262:22885] Signal code: Non-existant physical address (2)
+[nid00262:22885] Failing at address: 0x7fffbfed5b58
+[nid00250:38394] *** Process received signal ***
+[nid00250:38394] Signal: Bus error (7)
+[nid00250:38394] Signal code: Non-existant physical address (2)
+[nid00250:38394] Failing at address: 0x7fffbfed5b58
+[nid00255:34956] *** Process received signal ***
+[nid00255:34956] Signal: Bus error (7)
+[nid00255:34956] Signal code: Non-existant physical address (2)
+[nid00255:34956] Failing at address: 0x7fffbfed5b58
+[nid00257:35586] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35586] [ 1] [nid00262:22887] *** Process received signal ***
+[nid00262:22887] Signal: Bus error (7)
+[nid00262:22887] Signal code: Non-existant physical address (2)
+[nid00262:22887] Failing at address: 0x7fffbfed5b58
+[nid00250:38396] *** Process received signal ***
+[nid00250:38396] Signal: Bus error (7)
+[nid00250:38396] Signal code: Non-existant physical address (2)
+[nid00250:38396] Failing at address: 0x7fffbfed5b58
+[nid00255:34958] *** Process received signal ***
+[nid00255:34958] Signal: Bus error (7)
+[nid00255:34958] Signal code: Non-existant physical address (2)
+[nid00255:34958] Failing at address: 0x7fffbfed5b58
+[nid00257:35590] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35590] [ 1] [nid00262:22893] *** Process received signal ***
+[nid00262:22893] Signal: Bus error (7)
+[nid00262:22893] Signal code: Non-existant physical address (2)
+[nid00262:22893] Failing at address: 0x7fffbfed5b58
+[nid00250:38397] *** Process received signal ***
+[nid00250:38397] Signal: Bus error (7)
+[nid00250:38397] Signal code: Non-existant physical address (2)
+[nid00250:38397] Failing at address: 0x7fffbfed5b58
+[nid00255:34959] *** Process received signal ***
+[nid00255:34959] Signal: Bus error (7)
+[nid00255:34959] Signal code: Non-existant physical address (2)
+[nid00255:34959] Failing at address: 0x7fffbfed5b58
+[nid00257:35594] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35594] [ 1] [nid00262:22889] *** Process received signal ***
+[nid00262:22889] Signal: Bus error (7)
+[nid00262:22889] Signal code: Non-existant physical address (2)
+[nid00262:22889] Failing at address: 0x7fffbfed5b58
+[nid00250:38399] *** Process received signal ***
+[nid00250:38399] Signal: Bus error (7)
+[nid00250:38399] Signal code: Non-existant physical address (2)
+[nid00250:38399] Failing at address: 0x7fffbfed5b58
+[nid00255:34961] *** Process received signal ***
+[nid00255:34961] Signal: Bus error (7)
+[nid00255:34961] Signal code: Non-existant physical address (2)
+[nid00255:34961] Failing at address: 0x7fffbfed5b58
+[nid00257:35596] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35596] [ 1] [nid00262:22894] *** Process received signal ***
+[nid00262:22894] Signal: Bus error (7)
+[nid00262:22894] Signal code: Non-existant physical address (2)
+[nid00262:22894] Failing at address: 0x7fffbfed5b58
+[nid00250:38421] *** Process received signal ***
+[nid00250:38421] Signal: Bus error (7)
+[nid00250:38421] Signal code: Non-existant physical address (2)
+[nid00250:38421] Failing at address: 0x7fffbfed5b58
+[nid00255:34962] *** Process received signal ***
+[nid00255:34962] Signal: Bus error (7)
+[nid00255:34962] Signal code: Non-existant physical address (2)
+[nid00255:34962] Failing at address: 0x7fffbfed5b58
+[nid00257:35598] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00257:35598] [ 1] [nid00262:22891] *** Process received signal ***
+[nid00262:22891] Signal: Bus error (7)
+[nid00262:22891] Signal code: Non-existant physical address (2)
+[nid00262:22891] Failing at address: 0x7fffbfed5b58
+[nid00250:38400] *** Process received signal ***
+[nid00250:38400] Signal: Bus error (7)
+[nid00250:38400] Signal code: Non-existant physical address (2)
+[nid00250:38400] Failing at address: 0x7fffbfed5b58
+[nid00255:34963] *** Process received signal ***
+[nid00255:34963] Signal: Bus error (7)
+[nid00255:34963] Signal code: Non-existant physical address (2)
+[nid00255:34963] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35594] [ 2] [nid00262:22897] *** Process received signal ***
+[nid00262:22897] Signal: Bus error (7)
+[nid00262:22897] Signal code: Non-existant physical address (2)
+[nid00262:22897] Failing at address: 0x7fffbfed5b58
+[nid00250:38401] *** Process received signal ***
+[nid00250:38401] Signal: Bus error (7)
+[nid00250:38401] Signal code: Non-existant physical address (2)
+[nid00250:38401] Failing at address: 0x7fffbfed5b58
+[nid00255:34965] *** Process received signal ***
+[nid00255:34965] Signal: Bus error (7)
+[nid00255:34965] Signal code: Non-existant physical address (2)
+[nid00255:34965] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35596] [ 2] [nid00262:22892] *** Process received signal ***
+[nid00262:22892] Signal: Bus error (7)
+[nid00262:22892] Signal code: Non-existant physical address (2)
+[nid00262:22892] Failing at address: 0x7fffbfed5b58
+[nid00250:38404] *** Process received signal ***
+[nid00250:38404] Signal: Bus error (7)
+[nid00250:38404] Signal code: Non-existant physical address (2)
+[nid00250:38404] Failing at address: 0x7fffbfed5b58
+[nid00255:34964] *** Process received signal ***
+[nid00255:34964] Signal: Bus error (7)
+[nid00255:34964] Signal code: Non-existant physical address (2)
+[nid00255:34964] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35570] [ 2] [nid00262:22898] *** Process received signal ***
+[nid00262:22898] Signal: Bus error (7)
+[nid00262:22898] Signal code: Non-existant physical address (2)
+[nid00262:22898] Failing at address: 0x7fffbfed5b58
+[nid00250:38407] *** Process received signal ***
+[nid00250:38407] Signal: Bus error (7)
+[nid00250:38407] Signal code: Non-existant physical address (2)
+[nid00250:38407] Failing at address: 0x7fffbfed5b58
+[nid00255:34966] *** Process received signal ***
+[nid00255:34966] Signal: Bus error (7)
+[nid00255:34966] Signal code: Non-existant physical address (2)
+[nid00255:34966] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35579] [ 2] [nid00262:22895] *** Process received signal ***
+[nid00262:22895] Signal: Bus error (7)
+[nid00262:22895] Signal code: Non-existant physical address (2)
+[nid00262:22895] Failing at address: 0x7fffbfed5b58
+[nid00250:38406] *** Process received signal ***
+[nid00250:38406] Signal: Bus error (7)
+[nid00250:38406] Signal code: Non-existant physical address (2)
+[nid00250:38406] Failing at address: 0x7fffbfed5b58
+[nid00255:34967] *** Process received signal ***
+[nid00255:34967] Signal: Bus error (7)
+[nid00255:34967] Signal code: Non-existant physical address (2)
+[nid00255:34967] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35582] [ 2] [nid00262:22899] *** Process received signal ***
+[nid00262:22899] Signal: Bus error (7)
+[nid00262:22899] Signal code: Non-existant physical address (2)
+[nid00262:22899] Failing at address: 0x7fffbfed5b58
+[nid00250:38409] *** Process received signal ***
+[nid00250:38409] Signal: Bus error (7)
+[nid00250:38409] Signal code: Non-existant physical address (2)
+[nid00250:38409] Failing at address: 0x7fffbfed5b58
+[nid00255:34969] *** Process received signal ***
+[nid00255:34969] Signal: Bus error (7)
+[nid00255:34969] Signal code: Non-existant physical address (2)
+[nid00255:34969] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35585] [ 2] [nid00262:22896] *** Process received signal ***
+[nid00262:22896] Signal: Bus error (7)
+[nid00262:22896] Signal code: Non-existant physical address (2)
+[nid00262:22896] Failing at address: 0x7fffbfed5b58
+[nid00250:38411] *** Process received signal ***
+[nid00250:38411] Signal: Bus error (7)
+[nid00250:38411] Signal code: Non-existant physical address (2)
+[nid00250:38411] Failing at address: 0x7fffbfed5b58
+[nid00255:34968] *** Process received signal ***
+[nid00255:34968] Signal: Bus error (7)
+[nid00255:34968] Signal code: Non-existant physical address (2)
+[nid00255:34968] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35588] [ 2] [nid00262:22867] *** Process received signal ***
+[nid00262:22867] Signal: Bus error (7)
+[nid00262:22867] Signal code: Non-existant physical address (2)
+[nid00262:22867] Failing at address: 0x7fffbfed5b58
+[nid00250:38410] *** Process received signal ***
+[nid00250:38410] Signal: Bus error (7)
+[nid00250:38410] Signal code: Non-existant physical address (2)
+[nid00250:38410] Failing at address: 0x7fffbfed5b58
+[nid00255:34970] *** Process received signal ***
+[nid00255:34970] Signal: Bus error (7)
+[nid00255:34970] Signal code: Non-existant physical address (2)
+[nid00255:34970] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35586] [ 2] [nid00262:22868] *** Process received signal ***
+[nid00262:22868] Signal: Bus error (7)
+[nid00262:22868] Signal code: Non-existant physical address (2)
+[nid00262:22868] Failing at address: 0x7fffbfed5b58
+[nid00250:38412] *** Process received signal ***
+[nid00250:38412] Signal: Bus error (7)
+[nid00250:38412] Signal code: Non-existant physical address (2)
+[nid00250:38412] Failing at address: 0x7fffbfed5b58
+[nid00255:34971] *** Process received signal ***
+[nid00255:34971] Signal: Bus error (7)
+[nid00255:34971] Signal code: Non-existant physical address (2)
+[nid00255:34971] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35590] [ 2] [nid00262:22869] *** Process received signal ***
+[nid00262:22869] Signal: Bus error (7)
+[nid00262:22869] Signal code: Non-existant physical address (2)
+[nid00262:22869] Failing at address: 0x7fffbfed5b58
+[nid00250:38414] *** Process received signal ***
+[nid00250:38414] Signal: Bus error (7)
+[nid00250:38414] Signal code: Non-existant physical address (2)
+[nid00250:38414] Failing at address: 0x7fffbfed5b58
+[nid00255:34974] *** Process received signal ***
+[nid00255:34974] Signal: Bus error (7)
+[nid00255:34974] Signal code: Non-existant physical address (2)
+[nid00255:34974] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/pmix/mca_bfrops_v3.so(+0x4340)[0x7fffbfe8e340]
+[nid00257:35598] [ 2] [nid00262:22870] *** Process received signal ***
+[nid00262:22870] Signal: Bus error (7)
+[nid00262:22870] Signal code: Non-existant physical address (2)
+[nid00262:22870] Failing at address: 0x7fffbfed5b58
+[nid00250:38417] *** Process received signal ***
+[nid00250:38417] Signal: Bus error (7)
+[nid00250:38417] Signal code: Non-existant physical address (2)
+[nid00250:38417] Failing at address: 0x7fffbfed5b58
+[nid00255:34975] *** Process received signal ***
+[nid00255:34975] Signal: Bus error (7)
+[nid00255:34975] Signal code: Non-existant physical address (2)
+[nid00255:34975] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35594] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35594] [ 4] [nid00262:22871] *** Process received signal ***
+[nid00262:22871] Signal: Bus error (7)
+[nid00262:22871] Signal code: Non-existant physical address (2)
+[nid00262:22871] Failing at address: 0x7fffbfed5b58
+[nid00250:38418] *** Process received signal ***
+[nid00250:38418] Signal: Bus error (7)
+[nid00250:38418] Signal code: Non-existant physical address (2)
+[nid00250:38418] Failing at address: 0x7fffbfed5b58
+[nid00255:34977] *** Process received signal ***
+[nid00255:34977] Signal: Bus error (7)
+[nid00255:34977] Signal code: Non-existant physical address (2)
+[nid00255:34977] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35596] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35596] [ 4] [nid00262:22876] *** Process received signal ***
+[nid00262:22876] Signal: Bus error (7)
+[nid00262:22876] Signal code: Non-existant physical address (2)
+[nid00262:22876] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35570] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35570] [ 4] [nid00262:22880] *** Process received signal ***
+[nid00262:22880] Signal: Bus error (7)
+[nid00262:22880] Signal code: Non-existant physical address (2)
+[nid00262:22880] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35579] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35579] [ 4] [nid00262:22890] *** Process received signal ***
+[nid00262:22890] Signal: Bus error (7)
+[nid00262:22890] Signal code: Non-existant physical address (2)
+[nid00262:22890] Failing at address: 0x7fffbfed5b58
+/lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35582] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35582] [ 4] [nid00262:22873] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35585] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35585] [ 4] [nid00262:22878] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35588] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35588] [ 4] [nid00262:22882] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35586] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35586] [ 4] [nid00262:22879] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35590] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35590] [ 4] [nid00262:22884] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(PMIx_Fence_nb+0x1f1)[0x7fff7ec40601]
+[nid00257:35598] [ 3] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/openmpi/mca_pmix_pmix3x.so(pmix3x_fencenb+0x166)[0x7fff7ec06d16]
+[nid00257:35598] [ 4] [nid00262:22881] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35590] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35590] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35590] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35590] *** End of error message ***
+[nid00262:22886] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35594] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35594] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35594] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35594] *** End of error message ***
+[nid00262:22883] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35596] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35596] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35596] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35596] *** End of error message ***
+[nid00262:22888] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35570] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35570] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35570] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35570] *** End of error message ***
+[nid00262:22887] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35579] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35579] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35579] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35579] *** End of error message ***
+[nid00262:22893] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35582] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35582] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35582] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35582] *** End of error message ***
+[nid00262:22889] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35585] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35585] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35585] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35585] *** End of error message ***
+[nid00262:22891] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35588] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35588] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35588] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35588] *** End of error message ***
+[nid00262:22897] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35586] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35586] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35586] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35586] *** End of error message ***
+[nid00262:22892] /lustre/f2/dev/Enrico.Zorzetto/software/miniconda3/envs/HMC2021mpi/lib/libmpi.so.40(ompi_mpi_finalize+0x13f)[0x7fffbff23d6f]
+[nid00257:35598] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00257:35598] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00257:35598] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00257:35598] *** End of error message ***
+[nid00262:22898] [nid00262:22895] [nid00262:22890] [nid00262:22896] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22896] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22896] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22896] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22896] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22896] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22896] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22896] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22867] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22867] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22867] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22867] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22867] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22867] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22867] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22867] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22867] *** End of error message ***
+[nid00262:22868] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22868] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22868] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22868] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22868] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22868] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22868] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22868] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22868] *** End of error message ***
+[nid00262:22869] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22869] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22869] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22869] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22869] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22869] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22869] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22869] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22869] *** End of error message ***
+[nid00262:22899] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22899] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22899] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22899] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22899] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22899] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22899] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22899] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22870] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22870] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22870] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22870] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22870] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22870] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22870] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22870] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22870] *** End of error message ***
+[nid00262:22872] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22872] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22872] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22872] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22872] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22872] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22872] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22872] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22872] *** End of error message ***
+[nid00262:22875] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22875] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22875] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22875] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22875] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22875] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22875] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22875] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22875] *** End of error message ***
+[nid00262:22871] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22871] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22871] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22871] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22871] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22871] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22871] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22871] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22871] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22895] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22895] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22895] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22895] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22895] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22895] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22895] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22895] *** End of error message ***
+[nid00262:22876] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22876] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22876] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22876] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22876] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22876] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22876] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22876] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22876] *** End of error message ***
+[nid00262:22874] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22874] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22874] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22874] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22874] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22874] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22874] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22874] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22874] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22873] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22873] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22873] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22873] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22873] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22873] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22873] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22873] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22878] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22878] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22878] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22878] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22878] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22878] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22878] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22878] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22882] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22882] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22882] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22882] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22882] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22882] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22882] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22882] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22879] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22879] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22879] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22879] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22879] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22879] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22879] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22879] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22884] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22884] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22884] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22884] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22884] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22884] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22884] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22884] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22881] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22881] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22881] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22881] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22881] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22881] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22881] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22881] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22886] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22886] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22886] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22886] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22886] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22886] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22886] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22886] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22883] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22883] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22883] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22883] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22883] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22883] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22883] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22883] *** End of error message ***
+[nid00262:22880] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22880] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22880] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22880] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22880] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22880] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22880] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22880] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22880] *** End of error message ***
+[nid00262:22885] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22885] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22885] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22885] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22885] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22885] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22885] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22885] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22885] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22888] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22888] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22888] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22888] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22888] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22888] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22888] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22888] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22887] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22887] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22887] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22887] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22887] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22887] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22887] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22887] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22893] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22893] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22893] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22893] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22893] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22893] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22893] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22893] *** End of error message ***
+[nid00262:22894] [ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22894] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22894] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22894] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22894] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22894] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22894] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22894] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22894] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22889] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22889] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22889] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22889] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22889] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22889] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22889] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22889] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22891] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22891] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22891] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22891] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22891] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22891] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22891] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22891] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22897] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22897] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22897] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22897] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22897] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22897] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22897] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22897] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22892] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22892] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22892] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22892] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22892] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22892] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22892] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22892] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22898] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22898] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22898] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22898] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22898] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22898] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22898] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22898] *** End of error message ***
+[ 0] /lib64/libpthread.so.0(+0x132d0)[0x7fffbfbcb2d0]
+[nid00262:22890] [ 1] /lib64/ld-linux-x86-64.so.2(+0x96be)[0x7fffbfde06be]
+[nid00262:22890] [ 2] /lib64/ld-linux-x86-64.so.2(+0xa2df)[0x7fffbfde12df]
+[nid00262:22890] [ 3] /lib64/ld-linux-x86-64.so.2(+0xf253)[0x7fffbfde6253]
+[nid00262:22890] [ 4] /lib64/ld-linux-x86-64.so.2(+0x163aa)[0x7fffbfded3aa]
+[nid00262:22890] [ 5] run_mpi(+0x1264)[0x555555555264]
+[nid00262:22890] [ 6] /lib64/libc.so.6(__libc_start_main+0xea)[0x7fffbf82134a]
+[nid00262:22890] [ 7] run_mpi(+0x10d9)[0x5555555550d9]
+[nid00262:22890] *** End of error message ***
+[nid00262:22896] *** End of error message ***
+[nid00262:22899] *** End of error message ***
+--------------------------------------------------------------------------
+mpirun noticed that process rank 895 with PID 35444 on node nid00254 exited on signal 7 (Bus error).
+--------------------------------------------------------------------------
+[nid00226:65494] 5 more processes have sent help message help-errmgr-base.txt / no-path
+[nid00226:65494] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

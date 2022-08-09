@@ -1,0 +1,28 @@
+name: rad
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy=0.18.0
+  - cython=0.29.22
+  - geopy=2.1.0
+  - h5py=2.10.0
+  - json-c=0.13.1
+  - matplotlib=3.3.2
+  - matplotlib-base=3.3.2
+  - numba=0.51.2
+  - numpy=1.19.2
+  - numpy-base=1.19.2
+  - pandas=1.2.1
+  - pip=20.3.3
+  - py6s=1.8.0
+  - python=3.8.5
+  - scikit-learn=0.23.2
+  - scipy=1.6.0
+  - seaborn=0.11.1
+  - setuptools=52.0.0
+  - xarray=0.17.0
+  - pip:
+    - pyferret==7.63
+    - regex==2021.3.17
+    - topocalc==0.3.2

@@ -1,0 +1,5 @@
+Creating output file that is 300P x 300L.
+Processing input file /lustre/f1/Nathaniel.Chaney/predefined_input/chaney2017_global_dev/land/tile:1,is:1,js:1/soil_tiles_ea.tif.
+Using internal nodata values (e.g. -9999) for image /lustre/f1/Nathaniel.Chaney/predefined_input/chaney2017_global_dev/land/tile:1,is:1,js:1/soil_tiles_ea.tif.
+Copying nodata values from source /lustre/f1/Nathaniel.Chaney/predefined_input/chaney2017_global_dev/land/tile:1,is:1,js:1/soil_tiles_ea.tif to destination /lustre/f1/Nathaniel.Chaney/predefined_input/chaney2017_global_dev/land/tile:1,is:1,js:1/soil_tiles_latlon.tif.
+0...10...20...30...40...50...60...70...80...90...100 - done.
