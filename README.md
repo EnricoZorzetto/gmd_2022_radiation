@@ -9,9 +9,9 @@ Input data used in the analysis can be access at the following Zenodo repository
 ```
 This includes
 - Fields of solar irradiance over flat and 3D terrain for different solar angles
-- Terrain information for the three domains in the study, which include digital elevation maps, derived topographic variables (sky view, terrain configurations, slope and aspect derived quantities) and partition of the domain in tiles for different tiling configurations. Different tiling configuraions are stored with the following convention:
+- Terrain information for the three domains in the study, which include digital elevation maps, derived topographic variables (sky view, terrain configuration, and slope and aspect --derived quantities) and a partition of the domain in tiles for different tiling configurations. Different tiling configuraions are stored with a naming convention which identifies the number and type opf subgrid units used.
 
-Terrain maps for the three domains in the study are stored with the following naming convention based on the domain partitioning used to create tiles. For example, the file 
+Terrain maps for the three domains in the study are stored with the following naming convention, which is based on the domain partitioning used to create tiles. For example, the file 
 ```
 gmd_2021_grids_light_k5n1pV.zip
 ```
