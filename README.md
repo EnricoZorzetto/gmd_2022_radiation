@@ -13,9 +13,12 @@ This includes
 
 Thus, the data file 
 ```
-gmd_2021_grids_light_k2n1pV.zip
+gmd_2021_grids_light_k5n1pV.zip
 ```
-Refers to the domain terrain information relative to the case of subdivision in k=2 hillslopes, a single height band (n=1), and a variable number of land sub-units (variable p, or pV)
+Refers to the domain terrain information relative to the case of subdivision in k=5 hillslopes, a single height band (n=1), and a variable number of land sub-units (variable p, or pV). The content of this file correspond to that of the input directory (see workspace description below):
+```
+<simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/k5n1pV
+``` 
 
 # Installation
 
