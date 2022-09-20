@@ -42,12 +42,14 @@ python codes_gmd/main_run_gmd_2021_combined.py
 
 The code will need to point to a user-specified directory USERDIR with the data:
 
-    - $USERDIR/gmd_2021/gmd_2021_data/gmd_2021_grids_light
-    - $USERDIR/gmd_2021/gmd_2021_data/output_cluster_PP3D_EastAlps_merged123456
-    - $USERDIR/gmd_2021/gmd_2021_data/output_cluster_PP3D_Peru_merged123456
+    - <simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/k5n1pV
+    - <simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/kVn1p5
+    - <simul_folder>/gmd_2021/gmd_2021_data/output_cluster_PP3D_EastAlps_merged123456
+    - <simul_folder>/gmd_2021/gmd_2021_data/output_cluster_PP3D_Peru_merged123456
 
-A directory with the results will be created in $USERDIR/gmd_2021/gmd_2021_output/
+A directory with the results will be created in <simul_folder>/gmd_2021/gmd_2021_output/
 
+Where the directory "simul_folder" can be specified by the user in the namelist in python codes_gmd/main_run_gmd_2021_combined.py
 Code used to construct the domain (stored in gmd_2021_grids_light) and to simulate the radiation fields (stored in output_cluster_PP3D_*) is included in GFDL_preprocessing and rmc directories, respectively.
 
 
