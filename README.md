@@ -12,6 +12,11 @@ Input data can be access at the following Zenodo repository 10.5281/zenodo.69758
 
 The computing environment can be built using Conda and the yaml file env_rad_macos.yml
 
+```
+conda env create env_rad_macos.yml
+conda activate rad
+```
+
 
 # Running the analysis
 
