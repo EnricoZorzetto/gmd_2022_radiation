@@ -1,6 +1,8 @@
 # gmd_2022_radiation
 
-Codes used for analyzing the sub--grid distribution of solar radiation over mountains
+Codes used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al.
+
+Input data can be access at the following Zenodo repository 10.5281/zenodo.6975857
 
 The analysis in the paper can be replicated using the script
  
