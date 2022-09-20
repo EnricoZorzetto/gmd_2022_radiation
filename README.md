@@ -2,7 +2,12 @@
 
 Codes used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al.
 
-Input data can be access at the following Zenodo repository 10.5281/zenodo.6975857, which include
+Input data can be access at the following Zenodo repository with DOI
+
+```
+10.5281/zenodo.6975857
+```
+This includes
 - Fields of solar irradiance over flat and 3D terrain for different solar angles
 - Terrain information for the three domains in the study, which include digital elevation maps, derived topographic variables (sky view, terrain configurations, slope and aspect derived quantities) and partition of the domain in tiles for different tiling configuraions 
 
@@ -20,11 +25,15 @@ conda activate rad
 
 # Running the analysis
 
-The analysis in the paper can be replicated using the script
+The analysis in the paper can be replicated by running 
  
 
-codes_gmd/main_run_gmd_2021_combined.py
+```
+python codes_gmd/main_run_gmd_2021_combined.py
+```
 
+
+# Setting up the workspace
 
 The code will need to point to a user-specified directory USERDIR with the data:
 
