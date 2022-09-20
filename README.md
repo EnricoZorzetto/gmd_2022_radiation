@@ -1,6 +1,6 @@
-# Accounting for Radiation-topography interactions in the GFDL lan model
+# Accounting for Radiation-topography interactions in the GFDL land model version 4.2
 
-Codes used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al. The python code processes terrain spatial data and fields of solar radiation over complex topography and produces the results shown in the manuscript, performing the training and testing of the predictive model for solar radiation over complex topography.
+This repository includes the code used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al. The python code processes terrain spatial data and fields of solar radiation over complex topography and produces the results shown in the manuscript, performing the training and testing of the predictive model for solar radiation over complex topography.
 
 Input data used in the analysis can be access at the following Zenodo repository with DOI
 
@@ -11,11 +11,11 @@ This includes
 - Fields of solar irradiance over flat and 3D terrain for different solar angles
 - Terrain information for the three domains in the study, which include digital elevation maps, derived topographic variables (sky view, terrain configurations, slope and aspect derived quantities) and partition of the domain in tiles for different tiling configurations. Different tiling configuraions are stored with the following convention:
 
-Thus, the data file 
+Terrain maps for the three domains in the study are stored with the following naming convention based on the domain partitioning used to create tiles. For example, the file 
 ```
 gmd_2021_grids_light_k5n1pV.zip
 ```
-Refers to the domain terrain information relative to the case of subdivision in k=5 hillslopes, a single height band (n=1), and a variable number of land sub-units (variable p, or pV). The content of this file correspond to that of the input directory (see workspace description below):
+refers to the domain terrain information relative to the case of grid cell subdivision in k=5 hillslopes, a single height band (n=1), and a variable number of land sub-units (variable p, or pV). The content of this file will correspond to that of the input directory (see workspace description below):
 ```
 <simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/k5n1pV
 ``` 
@@ -23,7 +23,7 @@ Refers to the domain terrain information relative to the case of subdivision in 
 # Installation
 
 
-The computing environment can be built using Conda and the yaml file env_rad_macos.yml
+The computing environment (used in Mac OS system) can be built using Conda and the yaml file env_rad_macos.yml
 
 ```
 conda env create env_rad_macos.yml
