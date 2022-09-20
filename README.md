@@ -1,8 +1,8 @@
 # Accounting for Radiation-topography interactions in the GFDL lan model
 
-Codes used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al.
+Codes used for analyzing the sub--grid distribution of solar radiation over mountains in the paper "Effects of complex terrain on the shortwave radiative balance : A sub--grid scale parameterization for the GFDL Land Model version 4.2" by E. Zorzetto et al. The python code processes terrain spatial data and fields of solar radiation over complex topography and produces the results shown in the manuscript, performing the training and testing of the predictive model for solar radiation over complex topography.
 
-Input data can be access at the following Zenodo repository with DOI
+Input data used in the analysis can be access at the following Zenodo repository with DOI
 
 ```
 10.5281/zenodo.6975857
