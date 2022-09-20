@@ -40,13 +40,14 @@ python codes_gmd/main_run_gmd_2021_combined.py
 
 # Setting up the workspace
 
-The code will need to point to a user-specified directory USERDIR with the data:
+The code will need to point to a user-specified directory <simul_folder> containing input and output model data. The following input must be provided
 
     - <simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/k5n1pV
     - <simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/kVn1p5
     - <simul_folder>/gmd_2021/gmd_2021_data/output_cluster_PP3D_EastAlps_merged123456
     - <simul_folder>/gmd_2021/gmd_2021_data/output_cluster_PP3D_Peru_merged123456
 
+with corresponding directory stored in the data repository.
 A directory with the results will be created in <simul_folder>/gmd_2021/gmd_2021_output/
 
 Where the directory "simul_folder" can be specified by the user in the namelist in python codes_gmd/main_run_gmd_2021_combined.py
