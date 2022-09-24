@@ -7,7 +7,7 @@ Input data used in the analysis can be access at the following Zenodo repository
 ```
 10.5281/zenodo.6975857
 ```
-This includes
+This repository includes
 - Fields of solar irradiance over flat and 3D terrain for different solar angles
 - Terrain information for the three domains in the study, which include digital elevation maps, derived topographic variables (sky view, terrain configuration, and slope and aspect --derived quantities) and a partition of the domain in tiles for different tiling configurations. Different tiling configuraions are stored with a naming convention which identifies the number and type opf subgrid units used.
 
@@ -56,4 +56,15 @@ A directory with the results will be created in <simul_folder>/gmd_2021/gmd_2021
 Where the directory "simul_folder" can be specified by the user in the namelist in python codes_gmd/main_run_gmd_2021_combined.py
 Code used to construct the domain (stored in gmd_2021_grids_light) and to simulate the radiation fields (stored in output_cluster_PP3D_*) is included in GFDL_preprocessing and rmc directories, respectively.
 
+# land grid data
+
+The grid data (maps of terrain parameters and spatial classification of land in clusters) is stored in
+```
+<simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/
+``` 
+For different tiling configuration. This dataset was obtained running the preprocessing code in GFDL_preprocessing/
+
+# monte carlo radiation fields
+
+The software package used for performing ray tracing simulations is included in the rmc/ folder. Input data used for rmc simulations are included in the zenodo repository, and consist of terrain elevation data  (in the file GFDL_preproc_dems) and atmospheric optical properties (in single-time-step)
 
