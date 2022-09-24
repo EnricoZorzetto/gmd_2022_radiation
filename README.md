@@ -56,14 +56,6 @@ A directory with the results will be created in <simul_folder>/gmd_2021/gmd_2021
 Where the directory "simul_folder" can be specified by the user in the namelist in python codes_gmd/main_run_gmd_2021_combined.py
 Code used to construct the domain (stored in gmd_2021_grids_light) and to simulate the radiation fields (stored in output_cluster_PP3D_*) is included in GFDL_preprocessing and rmc directories, respectively.
 
-# land grid data
-
-The grid data (maps of terrain parameters and spatial classification of land in clusters) is stored in
-```
-<simul_folder>/gmd_2021/gmd_2021_data/gmd_2021_grids_light/
-``` 
-For different tiling configuration. This dataset was obtained running the preprocessing code in GFDL_preprocessing/
-
 # monte carlo radiation fields
 
 The software package used for performing ray tracing simulations is included in the rmc/ folder. Input data used for rmc simulations are included in the zenodo repository, and consist of terrain elevation data  (in the file GFDL_preproc_dems) and atmospheric optical properties (in single-time-step)
